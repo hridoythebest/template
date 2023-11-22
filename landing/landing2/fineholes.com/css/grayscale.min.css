@@ -1,0 +1,212 @@
+/*!
+ * Start Bootstrap - Grayscale v5.0.9 (https://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ */
+
+* {
+  font-family: 'Rubik', 'sans-serif';
+}
+
+.memberimg {
+  width: 100%;
+  height: 150px;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.memberimg:hover {
+  border-color:  rgba(255, 99, 105,.8);
+  box-shadow: 0 0px 0px rgba(255, 99, 105,.8) inset, 0 0 8px rgba(255, 99, 105,.8);
+  outline: 0 none;
+}
+.btn-main-join {
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: red;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    padding: 1.3rem 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+}
+.logo-index {
+  width: 80%;
+  max-width: 500px;
+  margin-bottom: 0.5em;
+}
+@media (max-width: 768px) {
+  .logo-index {
+    width: 90%;
+  }
+}
+.membername-link {
+  text-decoration: none;
+}
+.masthead {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  padding: 15rem 0;
+  margin: 0px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0.5) 80%, rgba(0, 0, 0, 1.0) 95%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+#carousel-main {
+  position: absolute; height: 100vh; width: 100%; background-color: #000;
+}
+.carousel-item-adj {
+  background-position: center center;
+  height: 100vh;
+  background-size: cover;
+}
+.masthead h1 {
+  font-family: 'Rubik', 'sans-serif','Varela Round';
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
+  line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
+  
+  XXletter-spacing: 0.8rem;
+  XXbackground: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+  XX-webkit-text-fill-color: rgba(255, 255, 255, 0.6);
+  XX-webkit-background-clip: text;
+  XXtext-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+  word-break: break-word;
+}
+
+.masthead h2 {
+  -webkit-text-fill-color: rgba(255, 255, 255, 1.0);
+	color: white;
+  max-width: 80vw;
+  XXfont-size: 1rem;
+   font-size: 1.2rem;
+    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+  
+}
+/*
+@media (min-width: 768px) {
+  .masthead h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+  .masthead h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+  .masthead h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+*/
+.btn {
+
+}
+
+.btn-primary {
+  background-color: #64a19d;
+}
+
+.btn-primary:hover {
+  background-color: #4f837f;
+}
+
+.btn-primary:focus {
+  background-color: #4f837f;
+  color: white;
+}
+
+.btn-primary:active {
+  background-color: #467370 !important;
+}
+
+.about-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+}
+
+.about-section p {
+  margin-bottom: 5rem;
+}
+
+.projects-section {
+  padding: 6rem 0;
+  width: 100vw;
+  max-width:100%;
+}
+
+.projects-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+  
+body {
+  width: 100vw;max-width:100%;
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+  overflow-x: hidden;  
+  overflow-y: scroll;  
+}
+
+a {
+  color: #64a19d;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #3c6360;
+}
+
+.bg-black {
+  background-color: #161616 !important;
+}
+
+.bg-primary {
+  background-color: #64a19d !important;
+}
+
+.text-primary {
+  color: #64a19d !important;
+}
+
+footer {
+  padding: 5rem 0;
+}
